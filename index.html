@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+
+    <!-- Container for Weather App -->
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="city" placeholder="Enter City Name">
+            <button onclick="getWeather()">
+                <i class="fas fa-search"></i> <!-- Search icon from Font Awesome -->
+            </button>
+        </div>
+
+        <!-- Weather Info -->
+        <div class="weather-info">
+            <div class="weather-card">
+                <div class="weather-icon">
+                    <img id="weather-icon" src="weather-forecast.png" alt="Weather Icon">
+                </div>
+                <div class="temperature">
+                    <h1 id="temperature">--°C</h1>
+                </div>
+                <div class="city-name" id="city-name">City Name</div>
+            </div>
+            <div class="details">
+                <div class="detail-card" id="humidity">Humidity: --%</div>
+                <div class="detail-card" id="wind-speed">Wind Speed: -- km/h</div>
+            </div>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            Loading...
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
