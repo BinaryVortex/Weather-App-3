@@ -5,6 +5,7 @@ A simple, responsive Weather App built with HTML, CSS and JavaScript. It fetches
 
 ## Screenshot
 
+![Weather App screenshot](./Screenshot%202024-09-10%20083824.png)
 
 
 ## Features
@@ -33,6 +34,7 @@ A simple, responsive Weather App built with HTML, CSS and JavaScript. It fetches
 - `index.html` — Main HTML page
 - `style.css` — App styles
 - `script.js` — JavaScript logic that calls the weather API and updates the UI
+- `Screenshot 2024-09-10 083824.png` — app screenshot
 - `weather-forecast.png`, `a.jpg` — additional images/assets
 
 
@@ -50,7 +52,7 @@ Contributions are welcome. If you'd like to improve the app (add features, fix b
 
 ## Notes
 
-- If the app uses an external weather API that requires an API key, make sure to add instructions to set the key (either directly in `script.js` for local testing or via a safe environment mechanism). If you want, I can update the README with exact API/key setup instructions — tell me which API/key method you're using.
+- If the app uses an external weather API that requires an API key, make sure to add instructions to set the key (either directly in `script.js` for local testing or via a safe environment mechanism).
 
 
 ## Author
