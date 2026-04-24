@@ -5,7 +5,6 @@ A simple, responsive Weather App built with HTML, CSS and JavaScript. It fetches
 
 ## Screenshot
 
-![App Screenshot](./Screenshot 2024-09-10 083824.png)
 
 
 ## Features
